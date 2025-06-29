@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to Adn Bank accounts related local APIs Cards PROD"
+  contactDetails:
+    name: "Onur Aydın - Developer PROD"
+    email: "onur@adnbank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345

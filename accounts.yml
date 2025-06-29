@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to Adn Bank accounts related local APIs Default"
+  contactDetails:
+    name: "Onur Aydın - Developer Default"
+    email: "onur@adnbank.com Default"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
