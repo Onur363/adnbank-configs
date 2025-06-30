@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to Adn Bank accounts related local APIs Cards production"
+  message: "Welcome to Adn Bank accounts related local APIs Cards PRODS"
   contactDetails:
     name: "Onur Aydın - Developer PROD"
     email: "onur@adnbank.com"
