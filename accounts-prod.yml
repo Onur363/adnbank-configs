@@ -8,7 +8,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to Adn Bank accounts related local APIs "
+  message: "Welcome to Adn Bank accounts related local APIs production"
   contactDetails:
     name: "Farah Deign- Developer"
     email: "farah@adnbank.com"
