@@ -2,9 +2,9 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to Adn Bank accounts related local APIs Cards PRODS"
+  message: "Welcome to Adn Bank accounts related local APIs Cards PROD Docker"
   contactDetails:
-    name: "Onur Aydın - Developer PROD"
+    name: "Onur Aydın - Developer PROD Docker"
     email: "onur@adnbank.com"
   onCallSupport:
     - (555) 555-1234
