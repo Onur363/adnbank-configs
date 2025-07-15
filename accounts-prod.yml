@@ -8,7 +8,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to Adn Bank accounts related local APIs PRODS Webhook Deneme" 
+  message: "Welcome to Adn Bank accounts related local APIs PRODS Webhook" 
   contactDetails:
     name: "Farah Deign- Developer"
     email: "{cipher}f8bf7544f473676476283ecfe4952cc9c557ec215c2007d1bbe614b464a5925e5b19d5feba0a077b0d2da26d32c1433e"
