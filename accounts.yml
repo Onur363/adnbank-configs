@@ -2,7 +2,7 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome to Adn Bank accounts related local APIs Defaults"
+  message: "Welcome to Adn Bank accounts related local APIs Defaultss"
   contactDetails:
     name: "Onur Aydın - Developer Defaults"
     email: "onur@adnbank.com Default"
