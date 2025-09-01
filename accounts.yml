@@ -1,6 +1,27 @@
 build:
   version: "3.0"
 
+spring:
+  cloud:
+    function:
+        definition: updateCommunication
+    stream:
+      bindings:
+        sendCommunication-out-0:
+          destination: send-communication
+        updateCommunication-in-0:
+          destination: communication-sent
+      kafka:
+        binder:
+          brokers:
+            - localhost:9092
+    rabbitmq:
+      host: localhost
+      username: guest
+      password: guest
+      connection-timeout: 10s
+      port: 5672
+
 accounts:
   message: "Welcome to Adn Bank accounts related local APIs Defaultss"
   contactDetails:
