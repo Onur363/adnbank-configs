@@ -13,10 +13,6 @@ spring:
         sendEmailsendSms-out-0:
           destination:
             communication-sent
-      kafka:
-        binder:
-          brokers:
-            - localhost:9092
   rabbitmq:
     host: localhost
     username: guest
