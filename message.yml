@@ -1,25 +1,6 @@
 server:
   port: 9010
 
-spring:
-  cloud:
-    function:
-      definition: sendEmail|sendSms
-    stream:
-      bindings:
-        sendEmailsendSms-in-0:
-          destination: send-communication
-          group: ${spring.application.name}
-        sendEmailsendSms-out-0:
-          destination:
-            communication-sent
-  rabbitmq:
-    host: localhost
-    username: guest
-    password: guest
-    connection-timeout: 10s
-    port: 5672
-
 eureka:
   instance:
     prefer-ip-address: true
